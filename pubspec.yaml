@@ -1,5 +1,5 @@
 name: store_manager
-description: A starting point for Dart libraries or applications.
+description: A hash map based store manager for dart and flutter.
 version: 1.0.0
 homepage: https://github.com/Ayush-Suman/store-manager
 
