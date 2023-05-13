@@ -28,5 +28,9 @@ abstract class StoreManager<K, V> {
     _store.removeWhere(filter);
   }
 
+  V getFromStore(K key) {
+    return _store[key]!;
+  }
+
   Map<K, V> createNewStoreObject();
 }
